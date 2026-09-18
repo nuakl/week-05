@@ -2,10 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Diri</title>
 </head>
 <body>
-    
+
+    <h1>Data Diri</h1>
+    <form action="terima.html">
+        
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required placeholder="Marcus"> 
+        <br><br>
+		
+		<label for="namax">Nama Panggilan:</label>
+        <input type="text" id="namax" name="namax" placeholder="Mas Marc"> 
+        <br><br>
+        
+        <label for="nrp">Nomor reg mhs:</label>
+        <input type="text" id="nrp" name="nrp" required placeholder="225170629"> 
+        <br><br>
+		
+		<label for="nrp">Kata Kunci:</label>
+        <input type="password" id="pwd" name="pwd"> 
+        <br><br>
+		
+		<label for="surel">Alamat Email:</label>
+        <input type="email" id="surel" name="surel" placeholder="nama@domain.com"> 
+        <br><br>
+		
+		<label for="ultah">Tanggal Lahir:</label>
+        <input type="date" id="ultah" name="ultah"> 
+        <br><br>
+		
+		<label for="telp">Nomor HP:</label>
+        <input type="tel" id="telp" name="nohp" placeholder="+62 4740-1892"> 
+        <br><br><br>
+		
+		<label for="gender">Jenis Kelamin</label>
+		<br><br>
+		<fieldset id="gender">
+			<input type="radio" name="gender" value="L">Cowok</radio>
+			<br>
+			<input type="radio" name="gender" value="P">Cewek</radio>
+			<br>
+			<input type="radio" name="gender" value="X" checked>Terserah</radio>
+			<br>
+		</fieldset>	
+		<br>
+		<br>
+		
+		<label for="pakar">Bisa apa aja?</label>
+		<br><br>
+		<fieldset id="pakar">
+			<input type="checkbox" name="pakar" value="PS">Photoshop
+			<br><br>
+			<input type="checkbox" name="pakar" value="AI">AI Adobe
+			<br><br>
+		</fieldset>
+		
+		<br><br>
+        <input type="submit">
+    </form>
+        
 </body>
 </html>
